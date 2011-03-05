@@ -366,3 +366,7 @@
 	})("addEventListener","DOMContentLoaded");
 	
 })(window);
+
+if (typeof(LABjsLoaded) == 'function'){
+	LABjsLoaded();
+}
